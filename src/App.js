@@ -26,4 +26,5 @@ function App() {
   );
 }
 
+// add=env-cmd -f .env.local
 export default App;
