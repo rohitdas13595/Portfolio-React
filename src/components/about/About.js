@@ -5,7 +5,7 @@ import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscProject } from "react-icons/vsc";
 
-import ME from "../../assets/me-about.jpg";
+import ME from "../../assets/me-ab.png";
 
 function About() {
   return (

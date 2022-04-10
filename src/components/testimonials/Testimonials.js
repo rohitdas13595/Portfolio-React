@@ -2,9 +2,9 @@ import React from "react";
 
 import "./Testimonials.css";
 
-import AV1 from "../../assets/avatar1.jpg";
+import AV1 from "../../assets/review.png";
 import AV2 from "../../assets/avatar2.jpg";
-import AV3 from "../../assets/avatar3.jpg";
+import AV3 from "../../assets/review.png";
 import AV4 from "../../assets/avatar4.png";
 
 // import Swiper core and required modules
@@ -60,7 +60,7 @@ function Testimonials() {
       >
         {testimonialData.map((i) => {
           return (
-            <SwiperSlide key={i.avatar} className="testimonial">
+            <SwiperSlide key={i.name} className="testimonial">
               <div className="client__avatar">
                 <img src={i.avatar} alt="" />
               </div>

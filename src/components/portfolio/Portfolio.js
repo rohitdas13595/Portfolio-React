@@ -1,10 +1,8 @@
 import React from "react";
-import PORTFOLIO1 from "../../assets/portfolio1.jpg";
-import PORTFOLIO2 from "../../assets/portfolio2.jpg";
-import PORTFOLIO3 from "../../assets/portfolio3.jpg";
-import PORTFOLIO4 from "../../assets/portfolio4.jpg";
-import PORTFOLIO5 from "../../assets/portfolio5.png";
-import PORTFOLIO6 from "../../assets/portfolio6.jpg";
+import PORTFOLIO1 from "../../assets/pr1.png";
+import PORTFOLIO2 from "../../assets/pr2.png";
+import PORTFOLIO3 from "../../assets/pr3.png";
+
 
 import "./Portfolio.css";
 
@@ -23,10 +21,10 @@ function Portfolio() {
           <div className="portfolio__item__image">
             <img src={PORTFOLIO1} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>A simple Chat App</h3>
           <div className="portfolio__item__cta">
             <a
-              href="http://github.com"
+              href="https://github.com/rohitdas13595/ChatApp.git"
               target="_blank"
               rel="noopener noreferrer"
               className="btn"
@@ -34,7 +32,7 @@ function Portfolio() {
               Github
             </a>
             <a
-              href="http://github.com"
+              href="https://rohit59-chat-app.herokuapp.com"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-primary"
@@ -47,10 +45,10 @@ function Portfolio() {
           <div className="portfolio__item__image">
             <img src={PORTFOLIO2} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Old portfolio</h3>
           <div className="portfolio__item__cta">
             <a
-              href="http://github.com"
+              href="https://github.com/rohitdas13595/MyPortfolio.git"
               target="_blank"
               rel="noopener noreferrer"
               className="btn"
@@ -58,7 +56,7 @@ function Portfolio() {
               Github
             </a>
             <a
-              href="http://github.com"
+              href="https://portfolio-rohit595.herokuapp.com"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-primary"
@@ -71,10 +69,10 @@ function Portfolio() {
           <div className="portfolio__item__image">
             <img src={PORTFOLIO3} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Object Detection using OpenCV</h3>
           <div className="portfolio__item__cta">
             <a
-              href="http://github.com"
+              href="https://github.com/rohitdas13595/objdetdep.git"
               target="_blank"
               rel="noopener noreferrer"
               className="btn"
@@ -82,7 +80,7 @@ function Portfolio() {
               Github
             </a>
             <a
-              href="http://github.com"
+              href="https://objdetapp.herokuapp.com"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-primary"

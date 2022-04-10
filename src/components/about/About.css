@@ -21,6 +21,7 @@
 
 .about__me__image {
   border-radius: 50%;
+  aspect-ratio: 1/1;
   overflow: hidden;
   transform: translateY(2rem) translateX(2rem);
   transition: var(--transition);
@@ -50,6 +51,12 @@
   box-shadow: inset -4px -4px 10px var(--color-primary), inset 4px 4px 10px var(--color-primary);
 }
 
+.about__card:focus {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  box-shadow: inset -4px -4px 10px var(--color-primary), inset 4px 4px 10px var(--color-primary);
+}
+
 .about__icon {
   color: var(--color-primary);
   font-size: 1.4rem;
@@ -70,7 +77,7 @@
 }
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   .about__container {
     grid-template-columns: 1fr;
     gap: 0;
