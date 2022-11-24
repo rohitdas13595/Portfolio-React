@@ -16,7 +16,7 @@ const contactData = [
     id: 2,
     header: "Instagram",
     ref: `${process.env.REACT_APP_INSTAGRAM}`,
-    text: "Send Message",
+    text: "Send Message!",
   },
   {
     id: 3,
