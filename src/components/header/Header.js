@@ -9,7 +9,7 @@ import "./Header.css";
 
 function Header(props) {
   return (
-    <header>
+    <header id="home">
       <div className="container header__container">
         <h5>Hello I'm</h5>
         <h2>Rohit K Das</h2>
